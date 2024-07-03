@@ -1,7 +1,7 @@
 {
   "name": "SachithaMadhuranga",
   "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
-  "homepage": "https://sachiya2000.github.io/Sachiya2000.github.io",
+  "homepage": "https://github.com/Sachiya2000/Sachiya2000.github.io.git",
   "version": "2.0.0",
   "private": true,
   "author": {
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://sachiya2000.github.io/Sachiya2000.github.io",
+    "deploy": "gh-pages -d build -r https://github.com/Sachiya2000/Sachiya2000.github.io.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
